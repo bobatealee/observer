@@ -16,11 +16,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		
 		document.getElementById("header").innerHTML = "observer's wisdom for "+monthString+" "+day+", "+year+":";
 
-		// easter eggs
-		if (Math.round(Math.random()*100) == 100) {
-			quote = "<img src=\"images/trollface.png\"></img>"
-		}
-
 		// january
 		if (month == 1) {
 			if (day == 1) {
@@ -41,28 +36,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		// april
 		if (month == 4) {
 			if (day == 10) {
-				quote = "happy anniversary boyboy";
+				quote = "happy anniversary 🌻";
 			}
 		}
 		
 		// july
 		if (month == 7) {
 			if (day == 4) {
-				quote = "AMERICA";
+				quote = "AMERICA. FUCK YEAH";
 			}
 		}
 
 		// august
 		if (month == 8) {
 			if (day == 5) {
-				quote = "happy birthday boyboy";
+				quote = "happy birthday... 🌻";
 			}
 		}
 		
 		// october
 		if (month == 10) {
 			if (day == 3) {
-				quote = "Happy national boyfriend's day, boyboy";
+				quote = "Happy national boyfriend's day";
 			}
 			if (day == 29) {
 				quote = "happy national cat day! meow!";
@@ -75,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		// december
 		if (month == 12) {
 			if (day == 1) {
-				quote = "<img src=\"images/birthday.gif\"></img>";
+				quote = "BIRTHDAY";
 			}
 			if (day == 25) {
 				quote = "Meowy Christmas!";

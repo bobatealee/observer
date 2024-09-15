@@ -53,7 +53,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
 				quote = "happy birthday... 🌻";
 			}
 		}
-		
+
+		// september
+		if (month == 9) {
+			if (day == 11) {
+				quote = "9/11 was bad";
+			}
+		}
+
 		// october
 		if (month == 10) {
 			if (day == 3) {
@@ -81,7 +88,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		}
 
 		document.getElementById("quote").innerHTML = "“"+quote+"”";
-		
+
 		countdown();
 	});
 

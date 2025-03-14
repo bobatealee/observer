@@ -33,24 +33,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 			}
 		}
 
-		// april
-		if (month == 4) {
-			if (day == 10) {
-				quote = "happy anniversary 🌻";
-			}
-		}
-		
 		// july
 		if (month == 7) {
 			if (day == 4) {
 				quote = "AMERICA. FUCK YEAH";
-			}
-		}
-
-		// august
-		if (month == 8) {
-			if (day == 5) {
-				quote = "happy birthday... 🌻";
 			}
 		}
 
@@ -63,9 +49,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 		// october
 		if (month == 10) {
-			if (day == 3) {
-				quote = "Happy national boyfriend's day";
-			}
 			if (day == 29) {
 				quote = "happy national cat day! meow!";
 			}
